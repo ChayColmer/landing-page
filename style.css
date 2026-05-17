@@ -1,0 +1,21 @@
+body {
+    background-color: #1F2937;
+   /* font-family: Roboto; */
+}
+
+.header {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.right {
+    display: flex;
+    gap: 16px;
+    margin-right: 32px;
+}
+
+.content {
+    display: flex;
+
+
+}
