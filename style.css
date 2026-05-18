@@ -1,21 +1,52 @@
+@import url('https://googleapis.com');
+
 body {
-    background-color: #1F2937;
-   /* font-family: Roboto; */
+    margin: 0;
+    padding: 0 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 64px;
+    padding: 16px 0;
+
+    color: #e5e7eb;
+    border: 2px solid red;
+    background-color: #1F2937;
 }
+
 .right {
     display: flex;
     gap: 16px;
     margin-right: 32px;
+    border: 2px solid red;
+
 }
 
 .content {
     display: flex;
+    justify-content: center;
+    border: 2px solid red;
+       background-color: #1F2937;
+}
 
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: 2px solid red;
+
+}
+
+strong {
+    font-weight: 900;
+}
+li strong {
+    font-size: 24px;
+    color: #f9faf8;
+    border: 2px solid red;
 
 }
